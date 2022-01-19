@@ -1,0 +1,58 @@
+:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local EspAim = Instance.new("TextButton")
+local hitboxexpander = Instance.new("TextButton")
+local Finfjump = Instance.new("TextButton")
+local NoclipE = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
+Frame.Position = UDim2.new(0.347524762, 0, 0.263736278, 0)
+Frame.Size = UDim2.new(0, 304, 0, 194)
+Frame.Active = true
+Frame.Draggable = true
+
+EspAim.Name = "Esp+Aim"
+EspAim.Parent = ScreenGui
+EspAim.BackgroundColor3 = Color3.fromRGB(255, 170, 255)
+EspAim.Position = UDim2.new(0.357425749, 0, 0.290109903, 0)
+EspAim.Size = UDim2.new(0, 106, 0, 64)
+EspAim.Font = Enum.Font.SourceSans
+EspAim.Text = "Esp+Aim"
+EspAim.TextColor3 = Color3.fromRGB(0, 0, 0)
+EspAim.TextSize = 14.000
+EspAim.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Ranboo-Senpa1/Esp-Aim/main/Esp%2BAim"))()
+end)
+
+Finfjump.Name = "F infjump"
+Finfjump.Parent = ScreenGui
+Finfjump.BackgroundColor3 = Color3.fromRGB(255, 170, 255)
+Finfjump.Position = UDim2.new(0.529702961, 0, 0.290109903, 0)
+Finfjump.Size = UDim2.new(0, 106, 0, 64)
+Finfjump.Font = Enum.Font.SourceSans
+Finfjump.Text = "F infjump"
+Finfjump.TextColor3 = Color3.fromRGB(0, 0, 0)
+Finfjump.TextSize = 14.000
+Finfjump.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Ranboo-Senpa1/F-infjump/main/F%20infjump"))()
+end)
+
+NoclipE.Name = "NoclipE"
+NoclipE.Parent = ScreenGui
+NoclipE.BackgroundColor3 = Color3.fromRGB(255, 170, 255)
+NoclipE.Position = UDim2.new(0.529702961, 0, 0.505494535, 0)
+NoclipE.Size = UDim2.new(0, 106, 0, 64)
+NoclipE.Font = Enum.Font.SourceSans
+NoclipE.Text = "NoclipE"
+NoclipE.TextColor3 = Color3.fromRGB(0, 0, 0)
+NoclipE.TextSize = 14.000
+NoclipE.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Ranboo-Senpa1/NoclipE/main/NoclipE"))()
+end)
